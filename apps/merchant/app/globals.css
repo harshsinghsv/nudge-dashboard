@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-shimmer: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+body {
+  background-color: #FAFAF8;
+  color: #1A1A18;
+}
